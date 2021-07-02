@@ -1,9 +1,9 @@
 export default {
-    apiKey: "AIzaSyDpic63eJrjoN4cZG0wFEZXG-FbgXM2bDU",
-    authDomain: "reactfirebasedemos-587f7.firebaseapp.com",
-    projectId: "reactfirebasedemos-587f7",
-    storageBucket: "reactfirebasedemos-587f7.appspot.com",
-    messagingSenderId: "607771467167",
-    appId: "1:607771467167:web:bd8fb08ef7c682e3aab1aa",
-    measurementId: "G-BWMQW90J0B"
+    apiKey: "AIzaSyALp4_nqMzQsSMM_oNBY5d_40fg57WIQ3o",
+    authDomain: "fir-reactapp-1ae43.firebaseapp.com",
+    projectId: "fir-reactapp-1ae43",
+    storageBucket: "fir-reactapp-1ae43.appspot.com",
+    messagingSenderId: "736215169464",
+    appId: "1:736215169464:web:4da72b0dd55f46fcf1b74d",
+    measurementId: "G-D6RS7KE0G6"
 };
