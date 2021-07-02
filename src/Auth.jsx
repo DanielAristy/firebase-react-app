@@ -12,6 +12,10 @@ export default function Auth() {
     const submit = async () => {
         await firebase.auth().createUserWithEmailAndPassword(email, password);
     }
+    const login = async () => {
+        await firebase.auth().signInWithEmailAndPassword(email, password);
+    }
+    
 
     const logout = async () => {
         await firebase.auth().signOut();
@@ -26,7 +30,8 @@ export default function Auth() {
                     <input type="email" id="email" onChange={(event) => setEmail(event.target.value)} />
                     <label htmlFor="password">Correo Electronico</label>
                     <input type="password" id="password" onChange={(event) => setPassword(event.target.value)} />
-                    <button onClick={submit}>Iniciar sesión</button>
+                    <button onClick={submit}>Crear Cuenta</button>
+                    <button onClick={login}>Iniciar Sesion</button>
                 </div>
             }
             {
